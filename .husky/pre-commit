@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+# 代码提交前要做的事情写在这里
+pnpm lint-staged

@@ -1,5 +1,5 @@
 <script setup></script>
 <template>
-  <router-view></router-view>
+  <div>首页</div>
 </template>
 <style scoped></style>

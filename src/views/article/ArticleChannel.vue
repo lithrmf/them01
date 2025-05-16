@@ -1,5 +1,5 @@
 <script setup></script>
 <template>
-  <router-view></router-view>
+  <div>频道管理</div>
 </template>
 <style scoped></style>

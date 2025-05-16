@@ -1,5 +1,5 @@
 <script setup></script>
 <template>
-  <router-view></router-view>
+  <div>更换头像</div>
 </template>
 <style scoped></style>

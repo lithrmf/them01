@@ -47,7 +47,7 @@ request.interceptors.response.use(
     }
 
     // 错误的默认情况 => 只要给提示
-    ElMessage.error(error.response.data.message || '服务器异常')
+    ElMessage.error(error.message || '服务器异常')
     return Promise.reject(error)
   }
 )
